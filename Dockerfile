@@ -21,4 +21,6 @@ RUN dotnet publish "apiDocker.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "apiDocker.dll"]
+#ENTRYPOINT ["dotnet", "apiDocker.dll"]
+# Opção utilizada pelo Heroku
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet apiDocker.dll

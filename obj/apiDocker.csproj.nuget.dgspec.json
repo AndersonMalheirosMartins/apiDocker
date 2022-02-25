@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\src\\apiDocker\\apiDocker\\apiDocker.csproj": {}
+    "C:\\src\\apiDocker\\apiDocker.csproj": {}
   },
   "projects": {
-    "C:\\src\\apiDocker\\apiDocker\\apiDocker.csproj": {
+    "C:\\src\\apiDocker\\apiDocker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\apiDocker\\apiDocker\\apiDocker.csproj",
+        "projectUniqueName": "C:\\src\\apiDocker\\apiDocker.csproj",
         "projectName": "apiDocker",
-        "projectPath": "C:\\src\\apiDocker\\apiDocker\\apiDocker.csproj",
+        "projectPath": "C:\\src\\apiDocker\\apiDocker.csproj",
         "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\apiDocker\\apiDocker\\obj\\",
+        "outputPath": "C:\\src\\apiDocker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
